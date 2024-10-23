@@ -21,4 +21,6 @@ def create_monthly_files(y: list,tr: range):
 
     return "The monthly files for the {0} year have been created".format(str(year_range))
 
-print(create_monthly_files([2023],range(1,13)))
+
+if __name__=='__main__':
+    create_monthly_files([2023],range(1,13))
